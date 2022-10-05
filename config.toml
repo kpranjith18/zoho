@@ -1,3 +1,4 @@
-baseURL = "https://github.com/kpranjith18/zoho/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+arthur = "Pon Ranjith"
