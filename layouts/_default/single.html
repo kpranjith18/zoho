@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="wrap">
+   
+    <div class="center mb-20 ">
+       <div class="heading">
+        <img class="pro-logo mb-50" src="{{ .Params.logo}}">
+        <h1 class="logo-title">{{ .Params.title}}</h1>
+       </div>
+        <div class="inner">
+            <h1 class="mb-20">{{ .Params.desc }}</h1>
+            <p class="mb-20">{{ .Params.details }}</p>
+            <a href="{{ .Params.accessurl }}" class="btn">Access Zoho {{ .Params.title}} </a>
+        </div>
+      </div>
+    <div class="mb-20">
+        {{ .Page.Content }}
+    </div>
+ </div>
+</body>
+</html>
